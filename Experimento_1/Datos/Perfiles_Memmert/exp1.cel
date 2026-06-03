@@ -1,0 +1,24 @@
+[CEL]
+<config deviceName="CTC -42..+190°C 10-98%rh" serialNumber="" temperatureMin="-41" temperatureMax="190" decimalPointInTemperature="0"
+	temperature2="0" flap="0" fan="1" switch0="0" switch1="0" switch2="0" co2Sensor="0" co2Max="200" o2MinPermil="0" o2MaxPermil="0" humiditySensor="1"
+	humidityControl="1" humidityMin="10" humidityMax="98" vacuum="0" vacuumMin="5" vacuumMax="1100" flashProtocol="1" />
+n	0:20	 250	0	50	0	1000	0
+n	0:20	 400	0	50	0	1000	0
+n	0:10	 400	0	50	0	1000	0
+n	0:10	 440	0	50	0	1000	0
+n	0:10	 440	0	50	0	1000	0
+n	0:10	 460	0	50	0	1000	0
+n	0:10	 460	0	50	0	1000	0
+n	0:10	 490	0	50	0	1000	0
+n	0:10	 490	0	50	0	1000	0
+n	0:10	 540	0	50	0	1000	0
+n	0:10	 540	0	50	0	1000	0
+n	0:10	 600	0	50	0	1000	0
+n	0:10	 600	0	50	0	1000	0
+n	0:10	 620	0	50	0	1000	0
+n	0:10	 620	0	50	0	1000	0
+n	0:10	 650	0	50	0	1000	0
+n	0:10	 650	0	50	0	1000	0
+n	0:10	 710	0	50	0	1000	0
+e	0:10	 710	0	50	0	1000	0
+RepeatCount=1

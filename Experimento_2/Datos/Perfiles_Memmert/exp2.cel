@@ -1,0 +1,9 @@
+[CEL]
+<config deviceName="" serialNumber="Z3240159" temperatureMin="-41" temperatureMax="190" decimalPointInTemperature="0"
+	temperature2="1" flap="0" fan="1" switch0="0" switch1="0" switch2="0" co2Sensor="0" co2Max="200" o2MinPermil="0" o2MaxPermil="0" humiditySensor="1"
+	humidityControl="1" humidityMin="10" humidityMax="98" vacuum="0" vacuumMin="5" vacuumMax="1100" flashProtocol="1" />
+n	1:00	  20	0	100	0	1000	0
+n	4:00	 550	0	100	0	1000	0
+n	4:00	  20	0	100	0	1000	0
+e	0:30	  20	0	100	0	1000	0
+RepeatCount=1
