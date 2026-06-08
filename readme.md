@@ -4,12 +4,12 @@ Este repositorio contiene la arquitectura de software desarrollada para el Traba
 
 El proyecto resuelve el problema de la trazabilidad subjetiva en cadenas logísticas mediante la digitalización de etiquetas colorimétricas (temperatura reversible/irreversible, humedad y tiempo). Se ha diseñado un *pipeline* integral que abarca desde la captura de telemetría física hasta el despliegue de modelos de Machine Learning sobre anclajes fiduciales dinámicos (Códigos QR).
 
-## 💾 Dataset Masivo y Especificaciones de Hardware
+## Dataset Masivo y Especificaciones de Hardware
 Para mantener la agilidad del repositorio, los directorios locales contienen únicamente un *Minimal Reproducible Example (MRE)*. 
 El conjunto de datos fotográficos longitudinal (> X.XXX capturas por experimento) y las hojas de características técnicas (Datasheets) de los sensores comerciales evaluados se encuentran alojados en un repositorio externo:
 * **[🔗 Enlace al Dataset Completo y Datasheets (Google Drive)](https://drive.google.com/drive/folders/10mqV171t6ejhxQpkpCbrcj8Qoxw4qmoo?usp=sharing)**
 
-## 📂 Arquitectura del Repositorio
+## Arquitectura del Repositorio
 
 El sistema está desacoplado en cuatro grandes bloques funcionales:
 
@@ -30,7 +30,7 @@ Pipelines independientes para calibración radiométrica, sincronización tempor
 ### 4. Herramientas Auxiliares de Diagnóstico
 * `\Utils`: Scripts de automatización para la telemetría visual (*Time-Lapse* a 1 Hz) y herramientas de compilación de vídeo dinámico para auditorías rápidas de integridad mecánica en laboratorio.
 
-## ⚙️ Flujo de Ejecución (Reproducibilidad)
+## Flujo de Ejecución (Reproducibilidad)
 1. **Extracción Visión Artificial:** Ejecutar `color_analysis_expX.py` dentro del experimento deseado. Se generarán los datos brutos en `\Datos`.
 2. **Fusión Matemática:** Ejecutar `procesado_expX.m` en MATLAB para sincronizar con el hardware de la cámara climática y obtener los CSV limpios.
 3. **Compilación ML:** Desde `\Modelado_Predictivo`, emplear `sensor_training.py` para re-entrenar y actualizar los modelos globales en `\Modelos_Exportados`.
