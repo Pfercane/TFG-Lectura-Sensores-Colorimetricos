@@ -41,15 +41,15 @@ SENSORES_CONFIG = {
         "csv_file": os.path.join(DATOS_FOLDER, "datos_color_3_mid.csv"),
         "roi_size": 40,
         "coords": {
-            'W_Ref': (248, 347), 'B_Ref': (140, 260), # ¡Ajustado a los buenos!
+            'W_Ref': (248, 347), 'B_Ref': (140, 260),
             'H_20': (365, 353), 'H_40': (492, 352), 'H_60': (615, 352), 'H_80': (736, 351)
         }
     },
     "Arriba": {
         "csv_file": os.path.join(DATOS_FOLDER, "datos_color_3_up.csv"),
-        "roi_size": 20,
+        "roi_size": 40,
         "coords": {
-            'W_Ref': (248, 347), 'B_Ref': (140, 260), # ¡Ajustado a los buenos!
+            'W_Ref': (248, 347), 'B_Ref': (140, 260),
             'H_20': (364, 520), 'H_40': (492, 518), 'H_60': (613, 517), 'H_80': (734, 515)
         }
     }
