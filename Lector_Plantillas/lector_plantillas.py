@@ -135,7 +135,6 @@ if bbox is not None and datos_qr:
     # El sistema decide en tiempo de ejecución qué topología cargar según el QR
     if plantilla_id == "01":
         print(f">> PROCESANDO PLANTILLA 01 (Paquete ID: {datos_qr[2:]})")
-        # Diccionario omitido por legibilidad, contiene las coordenadas espaciales relativas
         config_plantilla = {
             "Referencias": {
                 "W_Ref": {"x": -1.237, "y": -2.458},
