@@ -89,7 +89,7 @@ except FileNotFoundError:
 # ==========================================
 # 3. MOTOR PRINCIPAL DE EXTRACCIÓN
 # ==========================================
-ruta_imagen = os.path.join("Plantillas", "final_lab.jpeg")
+ruta_imagen = os.path.join("Plantillas", "30C_40RH.jpeg")
 
 if not os.path.exists(ruta_imagen):
     print(f">> ERROR: No se encontró la imagen en {ruta_imagen}")
